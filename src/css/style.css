@@ -28,3 +28,27 @@ p {
     background: url('../images/position.svg') no-repeat center;
     padding: 20px;
 }
+
+.paragraph-info-show {
+    display: block;
+}
+
+.paragraph-info-hide {
+    display: none;
+}
+
+.err-paragraph-show {
+    display: block;
+}
+
+.err-paragraph-hide {
+    display: none;
+}
+
+.form-control {
+    font-weight: 300;
+}
+
+.button {
+    font-weight: 400;
+}
