@@ -17,3 +17,19 @@ const longitudeInput = document.createElement('input');
 longitudeInput.classList.add('form-control');
 longitudeInput.placeholder = 'Your current longitude';
 coordInputContainer.appendChild(longitudeInput);
+
+const getPosBtn = document.querySelector('.get-position-btn');
+container.appendChild(getPosBtn);
+
+const iconBox = document.createElement('span');
+iconBox.classList.add('input-group-text');
+getPosBtn.appendChild(iconBox);
+
+const icon = document.createElement('img');
+icon.src = '../images/pin-map-fill.svg';
+iconBox.appendChild(icon);
+
+const btn = document.createElement('button');
+btn.classList.add('form-control', 'button');
+btn.innerText = 'Get your current position';
+getPosBtn.appendChild(btn);
