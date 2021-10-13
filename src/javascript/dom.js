@@ -26,7 +26,7 @@ iconBox.classList.add('input-group-text');
 getPosBtn.appendChild(iconBox);
 
 const icon = document.createElement('img');
-icon.src = '../images/pin-map-fill.svg';
+icon.src = '/dist/images/position.svg';
 iconBox.appendChild(icon);
 
 const btn = document.createElement('button');
