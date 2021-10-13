@@ -41,3 +41,23 @@ cityInputContainer.appendChild(cityInput);
 const infoContainer = document.querySelector('.paragraph-info');
 infoContainer.classList.add('paragraph-info-show');
 container.appendChild(infoContainer);
+
+const errParagraph = document.createElement('p');
+
+const cityName = document.createElement('p');
+const cityNameValue = document.createElement('span');
+
+const temperature = document.createElement('p')
+const temperatureValue = document.createElement('span');
+
+const airQuality = document.createElement('p');
+const airQualityValue = document.createElement('span');
+
+const airborneParticulate25 = document.createElement('p');
+const pm25Value = document.createElement('span');
+
+const AQIcolor = document.createElement('span');
+
+const apiKey = 'c2554421637d86cf799eb20429c81d88c99331d3';
+
+export { container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityInput, apiKey, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, airQualityValue, pm25Value }
