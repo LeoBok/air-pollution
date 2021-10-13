@@ -1,5 +1,5 @@
 body {
-    background: url('/src/images/patternpad.svg') no-repeat center center fixed;
+    background: url('../images/patternpad.svg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,4 +22,9 @@ p {
 .paragraph-info span {
     font-weight: 400;
     margin: 0 5px;
+}
+
+.input-group-text {
+    background: url('../images/position.svg') no-repeat center;
+    padding: 20px;
 }
