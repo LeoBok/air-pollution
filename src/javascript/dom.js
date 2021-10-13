@@ -37,3 +37,7 @@ const cityInput = document.createElement('input');
 cityInput.classList.add('form-control');
 cityInput.placeholder = 'Look for a city';
 cityInputContainer.appendChild(cityInput);
+
+const infoContainer = document.querySelector('.paragraph-info');
+infoContainer.classList.add('paragraph-info-show');
+container.appendChild(infoContainer);
