@@ -1,0 +1,99 @@
+body {
+    background: url('images/patternpad.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'lato', sans-serif;
+}
+
+.container {
+    max-width: 60%;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+p {
+    font-weight: 300;
+}
+
+.paragraph-info span {
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+.paragraph-info-show {
+    display: block;
+}
+
+.paragraph-info-hide {
+    display: none;
+}
+
+.err-paragraph-show {
+    display: block;
+}
+
+.err-paragraph-hide {
+    display: none;
+}
+
+.form-control {
+    font-weight: 300;
+}
+
+.button {
+    font-weight: 400;
+}
+
+.aqi-color-good {
+    background-color: #198754;
+    color: #f0f8ff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+.aqi-color-moderate {
+    background-color: #f1dc1f;
+    color: #272727;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+.aqi-color-unhealthy-for-sensitive-groups {
+    background-color: #f58b34;
+    color: #f0f8ff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+.aqi-color-unhealthy {
+    background-color: #c21b45;
+    color: #272727;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+.aqi-color-very-unhealthy {
+    background-color: #7b26db;
+    color: #f0f8ff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+.aqi-color-hazardous {
+    background-color: #772338;
+    color: #f0f8ff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 3px 2px #3D3D3D;
+}

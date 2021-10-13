@@ -6,3 +6,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.container {
+    max-width: 60%;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+p {
+    font-weight: 300;
+}
+
+.paragraph-info span {
+    font-weight: 400;
+    margin: 0 5px;
+}
