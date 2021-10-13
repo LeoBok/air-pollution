@@ -1,4 +1,8 @@
 body {
     color: #fff;
-    background-color: #4e8486;
+    background: url('../images/patternpad.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

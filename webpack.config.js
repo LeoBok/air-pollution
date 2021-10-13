@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/javascript/index.js',
 
-    mode: 'development',
+    mode: 'production',
 
     devServer: {
         open: true,
@@ -24,8 +24,12 @@ module.exports = {
                     'css-loader'
                 ],
             },
+            {
+                test: /\.(svg|ico|png|webp|jpg|gif|jpeg)$/,
+                type: 'asset/resource',
+            }
         ],
-    },
+      },
 
     plugins: [
         new HtmlWebpackPlugin({
