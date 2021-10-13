@@ -6,7 +6,9 @@ module.exports = {
 
     mode: 'development',
 
-    devServer: 'open',
+    devServer: {
+        open: true,
+    },
 
     output: {
         path: path.resolve(__dirname, 'dist'),
