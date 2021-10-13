@@ -8,3 +8,17 @@ function getPosition() {
         }
     });
 }
+
+function error() {
+    
+    if (infoContainer.classList.contains('paragraph-info-show')) {
+        
+        infoContainer.classList.remove('paragraph-info-show')
+        infoContainer.classList.add('paragraph-info-hide')
+
+        errParagraph.classList.add('err-paragraph-show')
+        errParagraph.innerText = 'Please enable your geolocation'
+        container.appendChild(errParagraph)
+    }
+
+}
