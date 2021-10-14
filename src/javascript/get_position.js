@@ -24,7 +24,7 @@ function error() {
 }
 
 function success(pos) {
-    
+
     if (infoContainer.classList.contains('paragraph-info-hide')) {
         
         infoContainer.classList.remove('paragraph-info-hide')
@@ -37,4 +37,10 @@ function success(pos) {
 
     latitudeInput.value = crd.latitude;
     longitudeInput.value = crd.longitude;
+
+    getCityData()
+
+    async function getCityData() {
+        
+    }
 }
