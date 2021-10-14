@@ -22,3 +22,19 @@ function error() {
     }
 
 }
+
+function success(pos) {
+    
+    if (infoContainer.classList.contains('paragraph-info-hide')) {
+        
+        infoContainer.classList.remove('paragraph-info-hide')
+        errParagraph.classList.remove('err-paragraph-show')
+        infoContainer.classList.add('paragraph-info-show')
+        errParagraph.classList.add('err-paragraph-hide')
+    }
+
+    const crd = pos.coords;
+
+    latitudeInput.value = crd.latitude;
+    longitudeInput.value = crd.longitude;
+}
