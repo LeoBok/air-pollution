@@ -30,7 +30,7 @@ function getCityAQI() {
             errParagraph.classList.remove('err-paragraph-show')
             infoContainer.classList.add('paragraph-info-show')
             errParagraph.classList.add('err-paragraph-hide')
-        }
+    }
 
     const citys = jsonData.data.city.name;
     const aqis = jsonData.data.aqi;
