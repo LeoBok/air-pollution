@@ -33,6 +33,9 @@ function getCityAQI() {
             errParagraph.classList.add('err-paragraph-hide')
         }
 
-        
+        const citys = jsonData.data.city.name;
+        const aqis = jsonData.data.aqi;
+        const temps = jsonData.data.iaqi.t.v;
+        const pm25s = jsonData.data.iaqi.pm25.v;
     }
 }
