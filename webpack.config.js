@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 module.exports = {
     entry: './src/javascript/index.js',
 
-    mode: 'production',
+    mode: 'development',
 
     devServer: {
         open: true,
