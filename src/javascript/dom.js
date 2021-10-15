@@ -58,4 +58,4 @@ const pm25Value = document.createElement('span');
 
 const AQIcolor = document.createElement('span');
 
-export { container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityInput, /*apiKey*/ cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, airQualityValue, pm25Value }
+export { container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityInput, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, airQualityValue, pm25Value }
