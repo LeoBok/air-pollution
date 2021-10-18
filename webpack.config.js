@@ -37,7 +37,9 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "./src/html/index.html",
         }),
-        new Dotenv(),
+        new Dotenv({
+            ignoreStub: true,
+        }),
     ],
 
 }
