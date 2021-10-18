@@ -4,18 +4,16 @@ The AQI app is a simple project to check your air pollution, based on your geolo
 
 ## 🛠 Installation
 
-1. Open Git Bash
-
-2. Change the current working directory to the location where you want the 
+1. Change the current working directory to the location where you want the 
    cloned directory.
 
-3. Type git clone, and then paste the URL you copied earlier
+2. Type git clone, and then paste the URL you copied earlier
 
 ``
 git clone https://github.com/LeoBok/air-pollution.git
 ``
 
-4. Once cloned, in the terminal of your Editor (in my case is VS Code) run ``npm run start`` to start webpack-dev-server
+3. Once cloned, in the terminal of your Editor (in my case is VS Code) run ``npm run start`` to start webpack-dev-server
 
 ## 📸 Screenshots
 
