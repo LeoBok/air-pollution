@@ -19,4 +19,4 @@ git clone https://github.com/LeoBok/air-pollution.git
 
 ## 📸 Screenshots
 
-![Home Page](images/home_screen.png)
+![Home Page](./src/images/home_screen.png)
