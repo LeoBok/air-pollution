@@ -17,8 +17,6 @@ git clone https://github.com/LeoBok/air-pollution.git
 
 4. Once cloned, in the terminal of your Editor (in my case is VS Code) run ``npm run start`` to start webpack-dev-server
 
-##  Usage
+## 📸 Screenshots
 
-``
-d
-``
+![Home Page](../images/home_screen.png)
