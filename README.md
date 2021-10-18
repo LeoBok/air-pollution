@@ -29,3 +29,16 @@ This is what you see when clicking on the ``Get you current position`` button:
 
 This is what you see when you search in ``Look for a city`` input:
 ![](./src/images/search_city_img.png)
+
+## 🧱 Build with
+- HTML
+- CSS & Bootstrap
+- Javascript
+- NPM
+- Webpack
+
+## Author
+
+**Leonardo Boccali**
+- [Profile](https://github.com/LeoBok)
+- [Email](mailto:leonardoboccali19@gmail.com?)
