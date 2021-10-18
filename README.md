@@ -37,7 +37,7 @@ This is what you see when you search in ``Look for a city`` input:
 - NPM
 - Webpack
 
-## Author
+## 👨‍💻 Author
 
 **Leonardo Boccali**
 - [Profile](https://github.com/LeoBok)
