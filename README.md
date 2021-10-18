@@ -26,6 +26,7 @@ This is what you see when clicking on the ``Get you current position`` button:
 ![](./src/images/current_pos_img.png)
 
 This is what you see when you search in ``Look for a city`` input:
+
 ![](./src/images/search_city_img.png)
 
 ## 🧱 Build with
@@ -39,4 +40,4 @@ This is what you see when you search in ``Look for a city`` input:
 
 **Leonardo Boccali**
 - [Profile](https://github.com/LeoBok)
-- [Email](mailto:leonardoboccali19@gmail.com?)
+- [Email](mailto:leonardoboccali19@gmail.com?) 📧
