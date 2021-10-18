@@ -19,4 +19,8 @@ git clone https://github.com/LeoBok/air-pollution.git
 
 ## 📸 Screenshots
 
+This is what you see at the very beginning when opening the app:
 ![Home Page](./src/images/home_screen.png)
+
+This is what you see when clicking on the ``Get you current position`` button
+![Home Page](./src/images/current_pos_img.png)
