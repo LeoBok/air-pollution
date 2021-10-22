@@ -58,5 +58,5 @@ const pm25Value = document.createElement('span');
 
 const AQIcolor = document.createElement('span');
 
-const apiKey = 'c2554421637d86cf799eb20429c81d88c99331d3';
+const apiKey = process.env.API_KEY;
 export { apiKey, container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityInput, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, airQualityValue, pm25Value }
