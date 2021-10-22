@@ -1,4 +1,4 @@
-import { apiKey, container, infoContainer, errParagraph, cityInput, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, pm25Value, API_KEY } from "./dom.js";
+import { container, infoContainer, errParagraph, cityInput, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, pm25Value, API_KEY } from "./dom.js";
 export { getCityAQI }
 
 function getCityAQI() {
@@ -12,7 +12,7 @@ function getCityAQI() {
     });
 
     async function requestApi(city) {
-        const response = await fetch(`https://api.waqi.info/feed/${city}/?token=${apiKey}`);
+        const response = await fetch(`https://api.waqi.info/feed/${city}/?token=${process.env.API_KEY}`);
         const jsonData = await response.json();
 
         if (jsonData.status == 'error') {

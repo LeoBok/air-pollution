@@ -1,4 +1,4 @@
-import { apiKey, container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, pm25Value, API_KEY } from "./dom.js";
+import { container, infoContainer, errParagraph, latitudeInput, longitudeInput, btn, cityName, temperature, airQuality, AQIcolor, airborneParticulate25, cityNameValue, temperatureValue, pm25Value, API_KEY } from "./dom.js";
 export { getPosition }
 
 function getPosition() {
@@ -42,7 +42,7 @@ function success(pos) {
 
     async function getCityData() {
 
-        const response = await fetch(`https://api.waqi.info/feed/geo:${latitudeInput.value};${longitudeInput.value}/?token=${apiKey}`);
+        const response = await fetch(`https://api.waqi.info/feed/geo:${latitudeInput.value};${longitudeInput.value}/?token=${process.env.API_KEY}`);
         const jsonData = await response.json();
 
         const city = jsonData.data.city.name;
