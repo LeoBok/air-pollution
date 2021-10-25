@@ -2,6 +2,8 @@
 
 The AQI app is a simple project to check your air pollution, based on your geolocation (after having given your browser permission) or by searching for a city you prefer.
 
+[Live project](https://leobok.github.io/air-pollution/dist/index.html)
+
 ## 🛠 Installation
 
 1. Change the current working directory to the location where you want the 
