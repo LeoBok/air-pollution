@@ -4,10 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-.container {
-    max-width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -22,7 +20,6 @@ p {
 
 .paragraph-info span {
     font-weight: 400;
-    margin: 0 5px;
 }
 
 .input-group-text {
@@ -45,11 +42,11 @@ p {
 .err-paragraph-hide {
     display: none;
 }
-
+/*
 .form-control {
     font-weight: 300;
 }
-
+*/
 .button {
     font-weight: 400;
 }
@@ -100,4 +97,95 @@ p {
     padding: 5px 10px;
     border-radius: 6px;
     box-shadow: 0px 2px 3px 2px #3D3D3D;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        margin: 15% 0%;
+    }
+
+    .container {
+        width: 80%;
+        padding: 30px 20px;
+    }
+
+    h1{
+        font-size: 65px;
+        padding-bottom: 15px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .form-control {
+        font-size: 18px;
+        height: 53px;
+    }
+
+    .paragraph-info-show {
+        padding-top: 20px;
+    }
+
+    .paragraph-info span {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1023px) {
+    body {
+        margin: 0% 5%;
+    }
+
+    .container {
+        margin: 35% 0px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 55px;
+        padding-bottom: 8px;
+    }
+
+    .input-group{
+        height: 45px;
+    }
+
+    .form-control {
+        font-size: 18px;
+    }
+
+    .paragraph-info-show {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    body {
+        margin: 0% 5%;
+    }
+
+    .container {
+        margin: 50% 0%;
+        padding: 10px 10px;
+    }
+
+    .city-name {
+        display: block;
+    }
+
+    .aqi-color-good, 
+    .aqi-color-moderate, 
+    .aqi-color-unhealthy-for-sensitive-groups,
+    .aqi-color-unhealthy,
+    .aqi-color-very-unhealthy,
+    .aqi-color-hazardous {
+        display: block;
+    }
+
+    .paragraph-info-show {
+        padding-top: 10px;
+    }
 }

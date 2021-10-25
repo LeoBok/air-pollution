@@ -46,6 +46,7 @@ const errParagraph = document.createElement('p');
 
 const cityName = document.createElement('p');
 const cityNameValue = document.createElement('span');
+cityNameValue.classList.add('city-name')
 
 const temperature = document.createElement('p')
 const temperatureValue = document.createElement('span');

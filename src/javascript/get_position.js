@@ -41,7 +41,6 @@ function success(pos) {
     getCityData()
 
     async function getCityData() {
-        console.log(process.env.API_KEY);
 
         const response = await fetch(`https://api.waqi.info/feed/geo:${latitudeInput.value};${longitudeInput.value}/?token=${process.env.API_KEY}`);
         const jsonData = await response.json();
